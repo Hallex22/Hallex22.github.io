@@ -13,17 +13,18 @@ body {
 }
 
 .navbar a {
-    float: left;
+    float: center;
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: #FF8C00;
+    transition: color 0.3s;
 }
 
 .navbar a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #895959;
+    color: #D97904;
 }
 
 .content {
